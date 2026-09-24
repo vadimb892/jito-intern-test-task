@@ -1,0 +1,153 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<meta charset="ISO-8859-1">
+	<meta name="keywords" content="quilez, inigo, iñigo, fractals, demoscene, computer graphics, mathematics, rendering, demo, 3D, realtime, shader, raytracing, shadertoy, glsl, raymarching, painting with maths">
+	<meta name="description" content="Tutorials and articles of Inigo Quilez on computer graphics, fractals, math, art, demoscene, shaders and more.">
+	<meta name="author" content="Inigo Quilez">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#282828">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="apple-touch-icon" href="/favicon.png"/>
+	<link rel="canonical" href="https://iquilezles.org"/>
+	<link rel="stylesheet" href="/style.css?v=2">
+	<title>Inigo Quilez :: computer graphics, maths, shaders, fractals, demoscene</title>
+</head>
+
+<body>
+<div id="container">
+
+	<div id="header">
+
+	<div><h3>
+		<a class="menu" href="/">Inigo Quilez</a>
+		<span id="menuL1">&nbsp; :: &nbsp; <a class="menu" href=""></a></span>
+		<span id="menuL2">&nbsp; :: &nbsp; <a class="menu" href=""></a></span>
+	</h3></div>
+
+	<div>
+		<a title="Youtube"   rel="noopener" target="_blank" aria-label="email" href="mailto:iquilezles@hotmail.com"><img class="socialMediaIcon" src="/imgEmail.png" alt=""/></a>
+		<a title="Twitter"   rel="noopener" target="_blank" aria-label="x" href="https://twitter.com/iquilezles"><img class="socialMediaIcon" src="/imgTwitter.png" alt=""/></a>
+		<a title="Bluesky"   rel="noopener" target="_blank" aria-label="bluesky" href="https://bsky.app/profile/iquilezles.bsky.social"><img class="socialMediaIcon" src="/imgBluesky.png" alt=""/></a>
+		<a title="Facebook"  rel="noopener" target="_blank" aria-label="facebook" href="https://www.facebook.com/inigo.quilez.art"><img class="socialMediaIcon" src="/imgFacebook.png" alt=""/></a>
+ 		<a title="Youtube"   rel="noopener" target="_blank" aria-label="youtube" href="https://www.youtube.com/channel/UCdmAhiG8HQDlz8uyekw4ENw"><img class="socialMediaIcon" src="/imgYoutube.png" alt=""/></a>
+		<a title="Instagram" rel="noopener" target="_blank" aria-label="instagram" href="https://www.instagram.com/inigoquilez/"><img class="socialMediaIcon" src="/imgInstagram.png" alt=""/></a>
+		<a title="Tiktok"    rel="noopener" target="_blank" aria-label="tiktok" href="https://www.tiktok.com/@inigoquilez"><img class="socialMediaIcon" src="/imgTikTok.png" alt=""/></a> 
+	        <a title="Bilibili"  rel="noopener" target="_blank" aria-label="bilibili" href="https://space.bilibili.com/673661710"><img class="socialMediaIcon" src="/imgBiliBili.png" alt=""/></a>
+		<a title="Shadertoy" rel="noopener" target="_blank" aria-label="shadertoy" href="https://www.shadertoy.com/user/iq/"><img class="socialMediaIcon" src="/imgShadertoy.png" alt=""/></a> 
+		<a title="Patreon"   rel="noopener" target="_blank" aria-label="patreon" href="https://www.patreon.com/inigoquilez"><img class="socialMediaIcon" src="/imgPatreon.png" alt=""/></a>
+		<a title="Paypal"    rel="noopener" target="_blank" aria-label="paypal" href="https://www.paypal.com/paypalme/SMOOTHSTEPLLC"><img class="socialMediaIcon" src="/imgPayPal.png" alt=""/></a> 
+	</div>
+
+	</div>
+<script>
+const gMenu = ['', '', '', '' ];
+</script>
+
+<style>
+.gparts { display:grid; grid-template-columns:1fr 1fr 1fr; grid-gap:32px; align-items:stretch;}
+.gpart  { background-color:#383838; padding:24px; border-radius:8px; transition:0.25s; height:100%; }
+.gpart:hover { background-color : #404040; }
+.title {font-size:1.5em; color:#ffffff;padding-bottom:16px; }
+@media only screen and (max-width: 1280px)
+{
+  .gparts { grid-template-columns:1fr;}
+  .gpart  { width:98%; }
+}
+</style>
+
+<!-- -------------------------------------------------------------------------- -->
+
+My name is Inigo Quilez, I grew up in <a href="personal/donostia">San Sebasti&#225;n / Donostia</a>, a beautiful city in the <a href="https://iquilezles.org/personal/donostia/euskadi/">Basque Country</a>, northern Spain. I've worked in Computer Graphics as a Technical Artists, a Product Manager, a Software Engineer and a Research Engineer. I like publishing and sharing everything I discover or invent in this web site. If you find that useful, you can contribute to my <a href="https://www.patreon.com/inigoquilez" style="font-weight:bold;">Patreon</a> or <a href="https://www.paypal.com/paypalme/SMOOTHSTEPLLC" style="font-weight:bold;">PayPal</a>, but simply subscribing to my <a target="_blank" rel="noopener" href="https://www.youtube.com/c/InigoQuilez">Youtube</a> channel will also help.<br>
+
+<br>
+<h3>Learning</h3>
+<div class="gparts">
+  <a class="menu" href="articles"><div class="gpart">
+    <div class="title">articles</div>
+    Articles, tutorials, code, and presentations related to computer graphics, maths, fractals, etc.
+  </div></a>
+  <a class="menu" href="live"><div class="gpart">
+    <div class="title">video tutorials</div>
+    Video tutorials and live coding sessions (some more than a decade old!), on using maths to create images.
+  </div></a>
+  <a class="menu" href="https://www.shadertoy.com/user/iq"><div class="gpart">
+    <div class="title">shaders</div>
+    Code related to my articles, many undocumented algorithms and techniques, and most of my procedural artwork and mathematical paintings.
+  </div></a>
+  <a class="menu" href="maths"><div class="gpart">
+    <div class="title">recreational math</div>
+    Often times I find myself playing with and exploring random math ideas or facts. Here are some of them.
+  </div></a>
+  <a class="menu" href="code"><div class="gpart">
+    <div class="title">code</div>
+    Code for demos, libraries and utilities that I use, that are not hosted in Shadertoy.
+  </div></a>
+  <div></div>
+</div>
+
+<br>
+<h3>Tools, Products and Projects</h3>
+<div class="gparts">
+  <a class="menu" href="https://www.shadertoy.com"><div class="gpart">
+    <div class="title">shadertoy</div>
+    A website that I co-founded with Pol Jeremias where you can create, share and learn realtime computer graphics.
+  </div></a>
+  <a class="menu" href="https://graphtoy.com"><div class="gpart">
+    <div class="title">graphtoy</div>
+    A tool for graphing and designing mathematical functions, useful during procedural programming.
+  </div></a>
+  <a class="menu" href="https://humanshader.com"><div class="gpart">
+    <div class="title">human shader</div>
+    A collaborative project where 2000 people completed the first ever human brain powered mathematical painting!
+  </div></a>
+  <a class="menu" href="demoscene"><div class="gpart">
+    <div class="title">demoscene</div>
+    Archive of all the demoscene pieces I created from 1998 to 2021, mostly featuring realtime rendering and procedural content.
+  </div></a>
+  <a class="menu" href="https://quill.art/"><div class="gpart">
+    <div class="title">quill</div>
+    I'm the current developer of "Quill", the VR painting and hand animation tool responsible for a few award winning VR short films.
+  </div></a>
+<!--
+  <a class="menu" href="https://madethisthing.com"><div class="gpart">
+    <div class="title">made this thing</div>
+    A platform for sharing code, art or whatever project you want, without any of the social media, development and collaboration overhead of GitHub.
+  </div></a>
+-->
+  <a class="menu" href="https://projectneo.adobe.com/" target="_blank" rel="noopener"><div class="gpart">
+    <div class="title">project Neo</div>
+    A SDF based 2D and 3D design tool we built at Adobe.
+  </div></a>
+</div>
+
+<br>
+<h3>Personal</h3>
+<div class="gparts">
+  <a class="menu" href="https://www.youtube.com/@ThingsWeDoAndSee/shorts" target="_blank" rel="noopener"><div class="gpart">
+    <div class="title">things we do and see</div>
+    Videos of some of the awesome projects we work on and things we see around.
+  </div></a>
+  <a class="menu" href="blog"><div class="gpart">
+    <div class="title">blog</div>
+    1400 blog posts written from 2008 to 2016. Observations, funny thoughts and word playing. Some embarrassingly corny, some deeper.
+  </div></a>
+  <a class="menu" href="personal/resume"><div class="gpart">
+    <div class="title">resumee</div>
+    Résumé/summary of things that happened during my professional career.
+  </div></a>
+</div>
+
+<br>
+<br>
+		<div id="footer"><a href="https://iquilezles.org">inigo quilez</a> - learning computer graphics since 1994</div>
+	</div>
+	</body>
+</html>
+
+<script>
+if( gMenu[0]!='' ) { const m1 = document.getElementById('menuL1'); m1.style.display='inline'; m1.lastElementChild.href=gMenu[1]; m1.lastElementChild.textContent=gMenu[0]; }
+if( gMenu[2]!='' ) { const m2 = document.getElementById('menuL2'); m2.style.display='inline'; m2.lastElementChild.href=gMenu[3]; m2.lastElementChild.textContent=gMenu[2]; }
+</script>
