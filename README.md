@@ -43,6 +43,7 @@ Before submitting your final results, double or even triple-check everything:
 - [comfy](https://comfy.ua/ua/noutbuk-igrovij-lenovo-legion-5-15irx10-83ly00t7ra-eclipse-black.html?gad_source=1&gad_campaignid=19171478135&gbraid=0AAAAAC-ixwiaIRTzcXHX1hdub1vEaV3B1&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5RqhPPPpgJCAifGRc-H_pl5it-6Q-1q-qRoKTin4B83a1XjT4QiEfwpYaAo8YEALw_wcB) ([file](./html_samples/comfy/index.html))
 - [iquilezles.org](https://iquilezles.org/) ([file](./html_samples/iquilezles/index.html))
 - [shadertoy](https://www.shadertoy.com/) ([file](./html_samples/shadertoy/index.html))
+- [modivo](https://modivo.ua/c/campaign-1?utm_source=google&utm_medium=cpc&utm_campaign=%5BMOD%5D_%5BUA%5D_%5BPB%5D_%5BSEA%5D_BRAND_PURE&utm_id=12295760603&is_retargeting=true&pid=googleads_int&af_sub1=cpc&c=%5BMOD%5D_%5BUA%5D_%5BPB%5D_%5BSEA%5D_BRAND_PURE&af_click_lookback=3h&af_reengagement_window=1d&af_c_id=12295760603&gad_source=1&gad_campaignid=12295760603&gbraid=0AAAAABm5O1GTNVSHiisUf23S5Bxjd2APa&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5RqhKesjFBy5YO5G90mOM8Mbl5gATf8PoR3cOS0mA8BSIH1uC9et-kLwaAhkeEALw_wcB&cookie_consent=true) ([file](./html_samples/modivo/index.html))
 
 Then I made analyse with AI and by myself of these websites structure. I found such patterns:
 - 
